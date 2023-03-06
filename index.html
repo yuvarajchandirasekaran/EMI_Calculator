@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3 style="text-align: center;">மாதாந்திர தவணை முறை கணிப்பான்</h3>
+    <div class="container">
+        <b class="error">சரியான உள்ளீடுகளை கொடுக்கவும்</b>
+        <div class="form">
+            <div class="form-section">
+                <div class="input">
+                    <label>கடன்தொகை (₹)</label><br>
+                    <input type="number" id="principle" min="1" ><br>
+                    <label>வட்டி (%)</label><br>
+                    <input type="number" id="intrest" min="1" max="100"><br>
+                    <lebel>காலம் (மாதம்/வருடம்)</lebel><br>
+                    <em style="font-size: 12px; color: #ff4848; font-weight: bold;">ஒன்றினை தேர்வு செய்க* <button class="mbtn">மாதம்</button>
+                        <button class="ybtn">வருடம்</button></em>
+                    <input type="number" id="time" min="1"  max="235">
+                    <button type="submit" class="calcibtn">கணக்கிட</button>
+                </div>
+                <div class="output">
+                    <p>செலுத்த வேண்டிய மாதாந்திர தொகை (₹):</p>
+                    <span id="pay-amount"> </span>
+                    <p>மொத்த வட்டி (₹):</p>
+                    <span id="total-intrest"> </span>
+                    <p>செலுத்த வேண்டிய மொத்தத் தொகை (₹):</p>
+                    <span id="total-amount"> </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

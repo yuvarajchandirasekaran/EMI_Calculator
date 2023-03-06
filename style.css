@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #cbe0f5;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+h3 {
+    margin: 0px 32%;
+    padding-top: 34px;
+    font-size: 23px;
+    color: #001F40;
+}
+
+label {
+    color: #001F40;
+
+}
+
+.container {
+    margin: 15px 180px;
+    background-image: url(emi1.png); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: #001F40 0px 4px 15px;
+    border-radius: 5px;
+    padding: 45px 75px;
+
+}
+
+.form {
+    border-radius: 5px;
+}
+
+.form-section {
+    display: flex;
+    position: relative;
+
+}
+
+input {
+    margin: 5px 0px;
+    height: 35px;
+    width: 270px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: #bfc9d4;
+    color: #001F40;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: #001F40 0px 15px 25px -10px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border: none;
+}
+
+.output {
+    width: 100%;
+    color: #e6eaee;
+    background-image: url(emi2.png);
+    box-shadow: #001F40 0px 5px 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+
+}
+
+.output>* {
+    padding: 0px 25px;
+}
+
+p {
+    font-size: 19px;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.calcibtn {
+    height: 45px;
+    width: 100px;
+    margin: 5% 25%;
+    font-size: 17px;
+}
+
+select {
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+#submit-btn {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    height: 30px;
+    width: 54px;
+    background-color: #001F40;
+    border-radius: 5px;
+    padding: 0px 0px;
+    color: #FFFFFF;
+    border: transparent;
+    margin: 1px;
+
+}
+
+button:hover {
+    box-shadow: #001F40 0px 20px 30px -10px;
+
+}
+
+.calcibtn:active {
+
+    background-color: #0067d4;
+    box-shadow: #001F40 0px 20px 30px -10px;
+    transform: scale(0.9);
+
+}
+
+span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #cbe0f5;
+}
+
+.show {
+    background-color: #0067d4;
+}
+
+.show1 {
+    box-shadow: #001F40 5px 5px 50px 5px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.error {
+    color: transparent;
+    font-style: italic;
+}
