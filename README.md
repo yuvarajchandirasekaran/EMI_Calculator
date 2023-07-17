@@ -1,3 +1,3 @@
 # EMI_Calculator
   click to see this ---->
-https://yuvarajcdckap.github.io/EMI_Calculator/
+  https://yuvarajchandirasekaran.github.io/EMI_Calculator/
